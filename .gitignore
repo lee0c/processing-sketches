@@ -1,0 +1,6 @@
+# Processing default folders
+examples/*
+libraries/*
+modes/*
+templates/*
+tools/*
