@@ -4,3 +4,7 @@ libraries/*
 modes/*
 templates/*
 tools/*
+
+# Sips and Sjin sprite outputs
+sips_sprite/sips*
+sjin_sprite/sjin*
