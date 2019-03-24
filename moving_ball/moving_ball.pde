@@ -1,5 +1,5 @@
 /* This tells the program we're going to have an array of 10 balls */
-Ball b[] = new Ball[10];
+Ball b[] = new Ball[20];
 int i;
 
 /* Is run once at the beginning of the program */
@@ -16,7 +16,7 @@ void setup() {
     i < 10: establishes a check that i must be less than 10 for the loop to run
     i++: means that after every run of the loop, i will be incremented by one
   so each slot in the b array will have a Ball object in it */
-  for (i = 0; i < 10; i++) {
+  for (i = 0; i < 20; i++) {
     b[i] = new Ball();
   }
 }
@@ -27,7 +27,7 @@ void draw() {
   rect(0,0,width,height);
 
   /* This loops through the b array and draws each ball */
-  for (i = 0; i < 10; i++) {
+  for (i = 0; i < 20; i++) {
     b[i].draw();
   }
 }
