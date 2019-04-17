@@ -27,7 +27,6 @@ class Star {
     // float g_diam;
     // color g_intensity;
 
-
     Star(float x, float y) {
         this.x = x;
         this.y = y;
