@@ -11,3 +11,7 @@ application.*
 # Sips and Sjin sprite outputs
 sips_sprite/sips*
 sjin_sprite/sjin*
+
+# Images 
+*.jpg
+*.png
